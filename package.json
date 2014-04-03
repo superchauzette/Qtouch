@@ -1,0 +1,22 @@
+{
+  "name": "qtouch",
+  "author": "Superchauzette",
+  "description": "interaction with qtouch component",
+  "contributors": [
+    {
+      "name": "Romain",
+      "email": ""
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "qtouch"
+  ],
+  "dependencies": {
+    "color-convert": "~0.3.1",
+    "pi-blaster.js": "0.0.2"
+  }
+}
