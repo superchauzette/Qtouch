@@ -19,6 +19,13 @@ qtouch.onPressLong(function(data){
 	console.log(data);
 });
 
+function BoutonAllumer(mot,decalage){
+	if ( (mot>>decalage) & mask) )
+		return true;
+	else
+		return false;
+}
+
 
 function balayageColor(curseur){
 	hsl(1, 1, curseur/100);
