@@ -29,6 +29,13 @@ qtouch.onPressUp(0, function(){
     }
 });
 
+function BoutonAllumer(mot,decalage){
+	if ( (mot>>decalage) & mask) )
+		return true;
+	else
+		return false;
+}
+
 
 //lecture en continu des valeurs sur bus I2C
 qtouch.read(function(dataI2C){
